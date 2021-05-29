@@ -1,0 +1,4 @@
+summon blaze ~ ~ ~ {PersistenceRequired:0b,Health:30f,Attributes:[{Name:generic.max_health,Base:30}],CustomName:'{"text":"Inferno","italic":false}',DeathLootTable:"mcmobs:entities/inferno",Tags:["mcmobs.inferno","mcmobs.found"],Age:0}
+effect give @e[type=blaze,tag=mcmobs.inferno] invisibility 999999 0 true
+summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.inferno"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360019}}],Silent:1b}
+summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.infernoshield"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360020}}],Silent:1b}

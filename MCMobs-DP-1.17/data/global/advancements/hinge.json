@@ -1,0 +1,19 @@
+{
+  "display": {
+    "title": "HingeDH",
+    "description": "",
+	"icon": {
+   "item": "minecraft:player_head",
+   "nbt": "{SkullOwner: HingeDH}"
+},
+    "background": "minecraft:textures/block/gray_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute if predicate mcmobs:chance/0.15 run function mcmobs:mobs/inferno/spawn

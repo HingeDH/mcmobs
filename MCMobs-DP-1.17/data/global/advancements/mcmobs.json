@@ -1,0 +1,19 @@
+{
+  "display": {
+    "title": "Minecon Mobs",
+    "description": "Adds Minecon/Minecraft Live mobs",
+    "icon": {
+      "item": "minecraft:cod_bucket",
+	  "nbt": "{CustomModelData:8360001}"
+    },
+    "background": "minecraft:textures/block/gray_concrete.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "global:hinge",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

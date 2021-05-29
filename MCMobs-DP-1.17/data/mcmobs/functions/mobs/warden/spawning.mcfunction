@@ -1,0 +1,1 @@
+execute as @s at @s if entity @s[y=-64,dy=80] at @s if predicate mcmobs:chance/0.1 run function mcmobs:mobs/warden/spawn

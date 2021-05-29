@@ -1,0 +1,3 @@
+summon zombie ~ ~ ~ {PersistenceRequired:0b,Silent:1b,CanPickUpLoot:0b,Health:75f,IsBaby:0b,CanBreakDoors:0b,Attributes:[{Name:generic.max_health,Base:75},{Name:generic.follow_range,Base:2},{Name:generic.knockback_resistance,Base:99},{Name:generic.movement_speed,Base:0.3},{Name:generic.attack_damage,Base:22}],CustomName:'{"text":"Warden","italic":false}',DeathLootTable:"mcmobs:entities/warden",Tags:["mcmobs.warden","mcmobs.found"],Age:0}
+effect give @e[type=zombie,tag=mcmobs.warden] invisibility 999999 0 true
+summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.warden"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360023}}],Silent:1b}

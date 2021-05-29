@@ -1,0 +1,1 @@
+execute if entity @s[nbt={Age:0}] if predicate mcmobs:chance/0.25 run function mcmobs:mobs/moobloom/spawn
