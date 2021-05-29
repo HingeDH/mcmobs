@@ -1,0 +1,39 @@
+{
+  "entity.warden.hurt": {
+    "category": "hostile",
+	"subtitle": "Warden hurts",
+    "sounds": [
+      "mcmobs:warden/warden_hurt3",
+	  "mcmobs:warden/warden_hurt4"
+    ]
+  },
+  "entity.warden.whine": {
+    "category": "hostile",
+	"subtitle": "Warden whines",
+    "sounds": [
+      "mcmobs:warden/warden_whine",
+	  "mcmobs:warden/warden_whine2"
+    ]
+  },
+  "entity.warden.laugh": {
+    "category": "hostile",
+	"subtitle": "Warden laughs",
+    "sounds": [
+      "mcmobs:warden/warden_laugh"
+    ]
+  },
+  "entity.warden.heartbeat": {
+    "category": "hostile",
+	"subtitle": "Warden heart beats",
+    "sounds": [
+      "mcmobs:warden/heartbeat"
+    ]
+  },
+  "entity.warden.vibe": {
+    "category": "hostile",
+	"subtitle": "Sculk sensor vibrates",
+    "sounds": [
+      "mcmobs:warden/vibe"
+    ]
+  }
+}
