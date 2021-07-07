@@ -4,7 +4,7 @@
 		"bonus_rolls": 1,
 		"entries": [{
 			"type": "item",
-			"weight": 25,
+			"weight": 3,
 			"name": "minecraft:snowball",
 			"functions": [{
 				"function": "set_count",

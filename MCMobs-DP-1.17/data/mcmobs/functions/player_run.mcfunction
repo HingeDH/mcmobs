@@ -5,7 +5,6 @@ execute if score @s mcmobs.wdelay matches 1.. run scoreboard players remove @s m
 scoreboard players reset @s mcmobs.walk
 scoreboard players reset @s mcmobs.sprint
 
-#Axolotl
-execute if entity @s[nbt={SelectedItem:{id:"minecraft:cod_bucket",Count:1b,tag:{display:{Name:'{"italic":false,"color":"gold","text":"Axolotl"}'}}}}] run replaceitem entity @s weapon.mainhand cod_bucket{ctc: {traits: {"item": 1b, "block": 1b, "bucket": 1b}, id: "axolotl_bucket", from: "hinge:mcmobs"},CustomModelData:8360001,display:{Name:'{"text":"Bucket of Axolotl","italic":false}'},EntityTag:{Tags:["mcmobs.axolotl_spawner"]}} 1
-
-execute as @e[type=cod,tag=mcmobs.axolotl_spawner] at @s run function mcmobs:mobs/axolotl/spawn
+#Iceologer
+execute if entity @s[tag=mcmobs.iceblock] run particle cloud ~ ~5.25 ~ 0.25 0.25 0.25 0.1 4 force
+execute unless entity @e[tag=mcmobs.iceologer,distance=..16] run tag @s remove mcmobs.iceblock

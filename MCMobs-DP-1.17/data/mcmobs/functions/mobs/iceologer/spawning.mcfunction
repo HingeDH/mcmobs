@@ -1,1 +1,1 @@
-execute as @s at @s if entity @s[y=80,dy=1000] at @s if predicate mcmobs:chance/0.1 run function mcmobs:mobs/iceologer/spawn
+execute if predicate mcmobs:chance/0.4 run function mcmobs:mobs/iceologer/spawn

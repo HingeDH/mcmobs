@@ -11,5 +11,5 @@ execute if score @s mcmobs.hurttime matches 1.. run scoreboard players remove @s
 execute if score @s mcmobs.hurttime matches 1.. if score @s mcmobs.walktime matches 1.. run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360009}}]}
 execute if score @s mcmobs.hurttime matches 1.. unless score @s mcmobs.walktime matches 1.. run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360008}}]}
 
-execute if entity @a[distance=..32,tag=mcmobs.iceblock] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360007}}]}
-execute if entity @a[distance=..32,tag=mcmobs.iceblock] if score @s mcmobs.hurttime matches 1.. run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:83600010}}]}
+execute if entity @a[distance=..16,tag=mcmobs.iceblock] run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360007}}]}
+execute if entity @a[distance=..16,tag=mcmobs.iceblock] if score @s mcmobs.hurttime matches 1.. run data merge entity @s {ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:83600010}}]}

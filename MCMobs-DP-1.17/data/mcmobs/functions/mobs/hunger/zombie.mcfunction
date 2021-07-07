@@ -1,4 +1,4 @@
-execute unless entity @e[type=armor_stand,tag=mcmobs.hunger,distance=..2.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.hunger"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360014}}],Silent:1b}
+execute unless entity @e[type=armor_stand,tag=mcmobs.hunger,distance=..2.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.hunger","mcmobs.entity"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360014}}],Silent:1b}
 
 execute if entity @s[nbt={HurtTime:9s}] run scoreboard players set @e[type=armor_stand,tag=mcmobs.hunger,sort=nearest,limit=1] mcmobs.hurttime 10
 

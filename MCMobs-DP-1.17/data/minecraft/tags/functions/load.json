@@ -1,5 +1,6 @@
 {
  "values":[
-   "mcmobs:load"
+   "mcmobs:load",
+   "mcmobs:tick_1s"
   ]
 }

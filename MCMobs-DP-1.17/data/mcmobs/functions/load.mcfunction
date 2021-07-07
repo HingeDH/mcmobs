@@ -1,4 +1,5 @@
 tellraw @a [{"text":"[Minecon Mobs] ","color":"gold","bold":"true"},{"text":"v1.17-29.5.21 loaded.","color":"yellow","bold":"false"}]
+tellraw @a [{"text":"Are you sure you're playing on the right version? This datapack is intended for ","color":"red","italic":"true"},{"text":"1.17.1","color":"dark_red"}]
 
 ##Scoreboards
 scoreboard objectives add mcmobs.walktime dummy

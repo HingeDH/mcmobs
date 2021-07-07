@@ -1,5 +1,5 @@
-execute unless entity @e[type=armor_stand,tag=mcmobs.inferno,distance=..2.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.inferno"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360019}}],Silent:1b}
-execute unless entity @e[type=armor_stand,tag=mcmobs.infernoshield,distance=..2.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.infernoshield"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360020}}],Silent:1b}
+execute unless entity @e[type=armor_stand,tag=mcmobs.inferno,distance=..2.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.inferno","mcmobs.entity"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360019}}],Silent:1b}
+execute unless entity @e[type=armor_stand,tag=mcmobs.infernoshield,distance=..2.5] run summon armor_stand ~ ~ ~ {Invulnerable:1b,Marker:1b,Invisible:1b,PersistenceRequired:1b,Tags:["mcmobs.infernoshield","mcmobs.entity"],ArmorItems:[{},{},{},{id:"minecraft:dandelion",Count:1b,tag:{CustomModelData:8360020}}],Silent:1b}
 
 execute if entity @s[nbt={HurtTime:9s}] run scoreboard players set @e[type=armor_stand,tag=mcmobs.inferno,sort=nearest,limit=1] mcmobs.hurttime 10
 execute if entity @s[nbt={HurtTime:9s}] run scoreboard players set @e[type=armor_stand,tag=mcmobs.infernoshield,sort=nearest,limit=1] mcmobs.hurttime 10
